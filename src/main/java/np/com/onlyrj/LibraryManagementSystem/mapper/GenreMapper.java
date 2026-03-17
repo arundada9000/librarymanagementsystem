@@ -91,4 +91,5 @@ public class GenreMapper {
         return genreList.stream().map(this::toDTO)
                 .collect(Collectors.toList());
     }
+
 }
